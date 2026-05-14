@@ -158,9 +158,9 @@ Please bring any questions to our first meeting during the week of August 24th (
 
 | Check | Status | Notes |
 |-------|--------|-------|
-| Python Compatibility | GREEN | The tech stack primarily uses Python libraries for modeling and analysis, indicating strong alignment with students' skills. |
-| Data Readiness | GREEN | The dataset is under 1GB and in an accessible CSV format, making it ready for immediate use. |
-| Resource Check | GREEN | The project uses free-tier tools such as Google Colab, ensuring no restrictive hardware requirements. |
+| Python Compatibility | 🟢 | The tech stack primarily uses Python libraries for modeling and analysis, indicating strong alignment with students' skills. |
+| Data Readiness | 🟢 | The dataset is under 1GB and in an accessible CSV format, making it ready for immediate use. |
+| Resource Check | 🟢 | The project uses free-tier tools such as Google Colab, ensuring no restrictive hardware requirements. |
 
 **Student Fit Score:** 9/10  
 **Technical Depth Score:** 8/10  
