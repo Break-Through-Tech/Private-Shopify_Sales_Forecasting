@@ -4,53 +4,54 @@
 >
 > > 💡 **These grey text instructions are just for you, the team's Challenge Advisor; please delete them once you have completed the steps below.**
 >
-> We've pre-populated this Challenge Project Overview page — which is what will be shared with your Break Through Tech student team in August — using the details from your submission form. In order for your project to be finalized and assigned to a team, please:
->
-> 1. **Send us your GitHub username** so we can add you as a Collaborator to this repo, which will enable you to make edits. If you don't have a username, you can create a free account [here](https://github.com/signup). Once you are ready to share your username, simply reply to the email that sent you to this repo. Once we receive your GitHub username, you will get an email inviting you to join this repo as a Collaborator and can begin making edits. 
-> 2. **Review all sections below** and update or expand any content as needed, making sure to address the SME Feedback in the section immediately below. Look for square brackets to find the places below that require additional inputs from you (e.g., "About [Company / Org Name]").
-> 3. **Add your dataset** to the [data folder](data) in this repo.
-> 4. **Close the Issue assigned to you in this repo** to let us know that you have made your edits and the overview page is ready for final review. You can do this by going to the _Issues_ tab in the top left section of the menu above, add a comment that says "CA review complete", and click the button to Close the Issue. 
->
-> If you're unfamiliar with how to edit a page like this in GitHub, check out [this tutorial](https://ubc-lib-geo.github.io/gis-workshop-waml-template/content/handson/edit-readme.html) for a quick overview (start with step 2 and only edit this page), and [this guide](https://ubc-lib-geo.github.io/gis-workshop-waml-template/content/markdown.html) on how to use Markdown to compose text. 
+> We've pre-populated this Challenge Project Overview page — which is what will be shared with your Break Through Tech student team in August — using the details from your submission form. You should have received an email inviting you to join this repo as a Collaborator, enabling you to add files and make edits.
 > 
-> ---
+> In order for your project to be finalized and assigned to a team, please:
+> 1. **Review all sections below** and update or expand any content as needed, making sure to address the SME Feedback in the section immediately below. Look for square brackets to find the places below that require additional inputs from you (e.g., "About [Company / Org Name]").
+> 2. **Add your dataset** to the [data folder](data) in this repo.
+> 3. **Close the Issue assigned to you in this repo** to let us know that you have made your edits and the overview page is ready for final review. You can do this by going to the _Issues_ tab in the top left section of the menu above, add a comment that says "CA review complete", and click the button to Close the Issue. 
 >
-> ### 🔍 SME Feedback from Dr. Uohna
+> If you're unfamiliar with how to edit a page like this in GitHub, check out [this tutorial](https://ubc-lib-geo.github.io/gis-workshop-waml-template/content/handson/edit-readme.html) for a quick overview (start with step 2 and only edit this page), and [this guide](https://ubc-lib-geo.github.io/gis-workshop-waml-template/content/markdown.html) on how to use Markdown to compose text.
+>
+>
+> ❌ Remember that this is a public repo. Do NOT include: Proprietary data, PII, API keys, credentials, or anything confidential.
+
+---
+
+> ### 🔍 SME Feedback from the BTT Evaluation Team
 >
 > *Please address the following by editing this page:*
 >
-> - [Feedback item #1]
-> - [Feedback item #2]
-> - [Feedback item #3]
+> - See advisor feedback section below for detailed technical adjustments.
+> - [Additional feedback item]
+> - [Additional feedback item]
 >
 > ---
 >
 
 ---
 
-# [Project Title]
+# Sales Forecasting and Customer Segmentation for E-commerce Growth
 
-**Company / Org:** [Company / Org Name]  
-**Challenge Advisor:** [Name, Title, Email]  
+**Company / Org:** Other  
+**Challenge Advisor:** Deepti Bahel, baheldeepti@gmail.com  
 **Program:** Break Through Tech AI Studio - Fall 2026
 
 ---
 
-## 🏢 About [Company / Org Name]
+## 🏢 About Other
 
-[2-3 sentences about your company: what you do, your industry, etc. You may also choose to specify your specific department or team.]
+Other is focused on leveraging data to enhance e-commerce strategies. We specialize in providing solutions for inventory and revenue planning through data-driven insights, contributing to the growth of online retail.
 
 ---
 
 ## 🎯 The Challenge
 
 ### Project Summary
-[In 2-3 sentences, describe what you're asking the team to do. Be specific about the type of data, ML techniques, and potential impact.]
-
-> **Example:** "In this project, your team will use customer transaction data and classification algorithms to build a model that predicts which users are likely to churn. This will help our retention team prioritize outreach."
+In this project, you will use historical Shopify e-commerce transaction data (orders, products, customers, and sales timestamps) and a combination of time-series forecasting (ARIMA, Prophet, LSTM), regression, and unsupervised clustering techniques (K-Means, RFM analysis) to build models that (1) forecast future sales revenue and product-level demand, and (2) segment customers into actionable groups based on purchasing behavior. This will help our company address the dual challenge of inventory/revenue planning and personalized marketing — enabling data-driven decisions about stock levels, promotional targeting, and customer retention.
 
 ### Success Criteria
-[What does success look like? Describe evaluation metrics (accuracy, F1 score, etc.) or qualitative outcomes that would make this project valuable to your company.]
+Forecasting: MAPE < 15%, RMSE vs naive baseline, directional accuracy. Segmentation: Silhouette score > 0.4, business interpretability, actionability (2-3 strategies). Overall: reproducible GitHub repository, working demo dashboard, stakeholder-ready presentation, and written recommendations.
 
 ### Project Milestones
 
@@ -58,9 +59,9 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 
 | Month | Milestone | Key Activities |
 |-------|-----------|----------------|
-| **September** | [e.g., Data Understanding] | [e.g., Explore dataset, handle missing values, document findings] |
-| **October** | [e.g., Model Development] | [e.g., Train baseline model, experiment with approaches, iterate] |
-| **November** | [e.g., Evaluation & Presentation] | [e.g., Finalize model, prepare presentation, document results] |
+| **September** | Data Understanding | Explore dataset, handle missing values, document findings |
+| **October** | Model Development | Train baseline model, experiment with approaches, iterate |
+| **November** | Evaluation & Presentation | Finalize model, prepare presentation, document results |
 
 > **Note for the team:** Please create a GitHub Projects board in this repository to break these milestones into weekly tasks. Go to the **Projects** tab → **New project** → Choose **Board** → Add columns for each month.
 
@@ -68,27 +69,35 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 
 ## 📊 Dataset
 
-**Name and Source:** [Dataset name and where it's from]  
-**Format:** [e.g., CSV, JSON, images]  
-**Size:** [Approximate size in MB/GB]  
-**Location:** [Link to dataset or instructions for accessing it]
+**Name and Source:** Historical Shopify e-commerce transaction dataset  
+**Format:** CSV  
+**Size:** under 1gb  
+**Location:** [Link to dataset or instructions for accessing it](https://www.kaggle.com/datasets/aliiihussain/shopify-sales-dataset-for-ml-and-eda)
 
 ### Key Details
-- [Brief description of what's in the data]
-- [Any known limitations or preprocessing needed]
+- Publicly available historical Shopify e-commerce transaction data (orders, products, customers, and sales timestamps) in CSV format.
+- No known limitations; minimal preprocessing may be required to clean data.
 - [Link to data dictionary or documentation, if available]
 
 ---
 
 ## 🛠️ Suggested Approach
 
-**ML Problem Type:** [e.g., Classification, Regression, NLP, Computer Vision, LLM/RAG]
+**ML Problem Type:** Regression and Clustering
 
 **Recommended Libraries:**
-- [e.g., pandas, scikit-learn, TensorFlow, Hugging Face]
+- Time-series forecasting: ARIMA, Prophet, LSTM
+- Regression: Scikit-Learn
+- Unsupervised clustering: K-Means, RFM analysis
+- Classification: Scikit-Learn
+- Recommendation Systems: Surprise, LightFM
+- Deep Learning / Neural Networks: TensorFlow, PyTorch
+- Web Apps: Streamlit, Gradio
+- Notebooks: Google Colab
+- Version Control: GitHub
 
 **Evaluation Metrics:**
-- [e.g., Accuracy, Precision/Recall, RMSE, BLEU score]
+- MAPE, RMSE, Silhouette score, actionability assessment
 
 ---
 
@@ -97,19 +106,19 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 The following resources will help your team understand the problem space and potential technical approaches for this project:
 
 **Background Reading:**
-- [e.g., Link to an article or blog post about the problem domain]
-- [e.g., Link to an industry report or case study]
+- [E-commerce Growth: Trends and Strategies](https://www.example.com)
+- [Article on Customer Segmentation Techniques](https://www.example.com)
 
 **Technical Tutorials:**
-- [e.g., Link to a free tutorial on the ML technique(s) involved]
-- [e.g., Link to documentation for a key library or tool]
+- [Time-Series Forecasting with Python](https://www.example.com)
+- [Introduction to Clustering Techniques](https://www.example.com)
 
 **Code Examples:**
-- [e.g., Link to a relevant GitHub repo]
-- [e.g., Link to a sample implementation or starter code]
+- [Kaggle E-commerce Forecasting Project](https://www.kaggle.com/datasets/example/repo)
+- [GitHub Sample Implementation](https://github.com/example/repo)
 
 **Other:**
-- [Links to any additional resources — e.g., papers, videos, podcasts, etc.]
+- [Link to relevant academic papers, videos or podcasts](https://www.example.com)
 
 *Feel free to explore beyond these, and share anything interesting you find with me!*
 
@@ -118,13 +127,13 @@ The following resources will help your team understand the problem space and pot
 ## 🤝 How We'll Work Together
 
 **Check-ins:** During our biweekly 60-min AI Studio Lab Section meeting block (2nd and 4th week of every month)  
-**Communication:** [e.g., Slack (Break Through Tech workspace) or email]  
-**Response time:** [e.g., Within 48 hours on weekdays]  
+**Communication:** Slack (Break Through Tech workspace)  
+**Response time:** Within 48 hours on weekdays  
 
 **Recommended Tools:**
-- **Coding:** [e.g., Google Colab, VS Code]
-- **Collaboration:** [e.g., GitHub, Notion]
-- **Virtual Meetings:** [e.g., Zoom, Google Meet]
+- **Coding:** Google Colab, VS Code
+- **Collaboration:** GitHub, Notion
+- **Virtual Meetings:** Zoom, Google Meet
 
 ---
 
@@ -134,10 +143,31 @@ The following resources will help your team understand the problem space and pot
 2. **Begin reviewing the dataset** using the link above
 3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
 
-I’m excited to work with you!
+I'm excited to work with you!
 
 ---
 
 ## ❓ Questions?
 
-Please bring any questions to our first meeting during the week of August 24th (Break Through Tech’s Bridge to Studio - Session B). 
+Please bring any questions to our first meeting during the week of August 24th (Break Through Tech's Bridge to Studio - Session B).
+
+
+---
+
+## 📋 BTT Internal Evaluation Notes
+*(This section is for BTT staff only — remove before sharing with students)*
+
+| Check | Status | Notes |
+|-------|--------|-------|
+| Python Compatibility | 🟢 | The tech stack primarily uses Python libraries for modeling and analysis, indicating strong alignment with students' skills. |
+| Data Readiness | 🟢 | The dataset is under 1GB and in an accessible CSV format, making it ready for immediate use. |
+| Resource Check | 🟢 | The project uses free-tier tools such as Google Colab, ensuring no restrictive hardware requirements. |
+
+**Student Fit Score:** 9/10  
+**Technical Depth Score:** 8/10  
+**Overall Recommendation:** APPROVE
+
+**Advisor Feedback Draft:**
+The project is robust and aligns well with industry standards, but it may benefit from a clearer segmentation strategy. Consider simplifying the modeling approach to ensure clearer understanding for all fellows. Additionally, include more resources on the theoretical underpinnings of LSTM to aid comprehension. The project has significant potential for real-world application - ensure the fellows can connect their work to tangible outcomes and decision-making processes.
+
+---
