@@ -18,16 +18,23 @@
 
 ---
 
-> ### 🔍 SME Feedback from the BTT Evaluation Team
->
-> *Please address the following by editing this page:*
->
-> - See advisor feedback section below for detailed technical adjustments.
-> - [Additional feedback item]
-> - [Additional feedback item]
->
-> ---
->
+### 🔍 SME Feedback from the Break Through Tech Evaluation Team
+
+*Challenge Advisor: Please address the following feedback by editing this page. Your AI Studio Coach can help make project adjustments as needed, too. In addition to the grey section above, this section should be removed before sharing the repo with your student team.*
+
+| Check | Status | Notes |
+|-------|--------|-------|
+| Python Compatibility | 🟢 | The tech stack primarily uses Python libraries for modeling and analysis, indicating strong alignment with students' skills. |
+| Data Readiness | 🟢 | The dataset is under 1GB and in an accessible CSV format, making it ready for immediate use. |
+| Resource Check | 🟢 | The project uses free-tier tools such as Google Colab, ensuring no restrictive hardware requirements. |
+
+**Student Fit Score:** 9/10  
+**Technical Depth Score:** 8/10  
+**Overall Recommendation:** APPROVE
+
+**Advisor Feedback Draft:**
+The project is robust and aligns well with industry standards, but it may benefit from a clearer segmentation strategy. Consider simplifying the modeling approach to ensure clearer understanding for all fellows. Additionally, include more resources on the theoretical underpinnings of LSTM to aid comprehension. The project has significant potential for real-world application - ensure the fellows can connect their work to tangible outcomes and decision-making processes.
+
 
 ---
 
@@ -150,24 +157,5 @@ I'm excited to work with you!
 ## ❓ Questions?
 
 Please bring any questions to our first meeting during the week of August 24th (Break Through Tech's Bridge to Studio - Session B).
-
-
----
-
-## 📋 BTT Internal Evaluation Notes
-*(This section is for BTT staff only — remove before sharing with students)*
-
-| Check | Status | Notes |
-|-------|--------|-------|
-| Python Compatibility | 🟢 | The tech stack primarily uses Python libraries for modeling and analysis, indicating strong alignment with students' skills. |
-| Data Readiness | 🟢 | The dataset is under 1GB and in an accessible CSV format, making it ready for immediate use. |
-| Resource Check | 🟢 | The project uses free-tier tools such as Google Colab, ensuring no restrictive hardware requirements. |
-
-**Student Fit Score:** 9/10  
-**Technical Depth Score:** 8/10  
-**Overall Recommendation:** APPROVE
-
-**Advisor Feedback Draft:**
-The project is robust and aligns well with industry standards, but it may benefit from a clearer segmentation strategy. Consider simplifying the modeling approach to ensure clearer understanding for all fellows. Additionally, include more resources on the theoretical underpinnings of LSTM to aid comprehension. The project has significant potential for real-world application - ensure the fellows can connect their work to tangible outcomes and decision-making processes.
 
 ---
